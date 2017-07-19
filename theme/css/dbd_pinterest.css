@@ -1,0 +1,54 @@
+#dbd-pinterest-widget {
+	width:300px; 
+	float:left; 
+	margin:20px 0;
+	vertical-align: top;
+	background: #fff;
+}
+
+#dbd-pinterest-widget .header {
+	padding:10px 10px 6px 40px; 
+	background: #fff url(../images/pinlogo.png) no-repeat 5px center;
+	border-bottom: 1px solid #d8dfea;
+	
+}
+
+#dbd-pinterest-widget ul.pinterest-list {
+	margin: 10px 0 0 0;
+	padding: 0;
+	background: #fff;
+	overflow: auto;
+	width: 100%
+}
+
+#dbd-pinterest-widget ul.pinterest-list li{
+	display: inline;
+	float: left;
+	width: 90px;
+	vertical-align: top;
+	margin: 0 0 10px 0;
+	padding: 0 5px;
+}
+
+#dbd-pinterest-widget ul.pinterest-list li a.pin-img{
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	display: block;
+}
+
+#dbd-pinterest-widget ul.pinterest-list li img {
+	/* Scale Images */
+	/*max-width: 90px;*/
+	height: auto;
+}
+
+#dbd-pinterest-widget ul.pinterest-list li p { 
+	font-size: 12px; 
+	margin: 7px 0 0 0; 
+	text-align: left;
+	overflow: hidden;
+	width: 90px;
+	height: 32px;
+	line-height: 16px;
+}
